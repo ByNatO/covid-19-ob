@@ -18,7 +18,7 @@ from plotly.offline import iplot, init_notebook_mode
 import cufflinks
 cufflinks.go_offline(connected=True)
 init_notebook_mode(connected=True)
-from flask import Flask
+#from flask import Flask
 
 app = dash.Dash(__name__)
 
@@ -633,7 +633,7 @@ def world_map_active(view, date_index):
         scope='europe'
         projection_type='natural earth'
     elif view == 'Africa':
-        df = df_af
+        df = data
         scope='africa'
         projection_type='natural earth'
     else:
@@ -868,6 +868,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     html.Div(
         dcc.Markdown('''
             Built by [Greg Rafferty](https://www.linkedin.com/in/gregrafferty/)  
+            Customized for Africa [Omar Badiane]
             Source data: [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
             '''),
             style={
