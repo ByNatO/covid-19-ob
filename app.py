@@ -285,8 +285,7 @@ africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
        'Mauritania', 'Morocco', 'Zimbabwe', 'Zambia', 'Tunisia', 'Togo',
         'Somalia', 'Niger', 'Madagascar', 'Libya', 'Guinea', 'Ghana', 'Gabon',
          'Ethiopia', 'Eswatini', 'Eritrea', 'Equatorial Guinea', 'Djibouti', 
-         'Congo', 'Congo', 'Chad', 'Central African Republic', 'Cameroon',
-         'Benin', 'Uganda']
+         'Congo', 'Congo', 'Chad', 'Central African Republic', 'Cameroon', 'Benin', 'Uganda']
 
 region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
 
@@ -521,8 +520,7 @@ def set_countries_value(view, available_options):
     elif view == 'Europe':
         return ['France', 'Germany', 'Italy', 'Spain', 'United Kingdom']
     elif view == 'Africa':
-        return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Morocco',
-       'Guinea-Bissau',  "Cote d'Ivoire", "Mali", 'Uganda']
+        return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Morocco', 'Guinea-Bissau',  "Cote d'Ivoire", "Mali", 'Uganda']
     else:
         return ['China', 'Italy', 'South Korea', 'US', 'Spain', 'France', 'Germany']
 
