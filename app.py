@@ -521,7 +521,8 @@ def set_countries_value(view, available_options):
     elif view == 'Europe':
         return ['France', 'Germany', 'Italy', 'Spain', 'United Kingdom']
     elif view == 'Africa':
-        return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Morocco','Guinea-Bissau', "Cote d'Ivoire", 'Uganda']
+        return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Morocco',
+               'Guinea-Bissau',  "Cote d'Ivoire", 'Uganda']
     else:
         return ['China', 'Italy', 'South Korea', 'US', 'Spain', 'France', 'Germany']
 
@@ -886,4 +887,5 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
 if __name__ == '__main__':
    
 
-    app.run_server(debug=False)
+    app.run_server(port=8080,
+                  host='127.0.0.1')
