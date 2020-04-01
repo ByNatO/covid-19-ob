@@ -286,7 +286,8 @@ africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
         'Somalia', 'Niger', 'Madagascar', 'Libya', 'Guinea', 'Ghana', 'Gabon',
          'Ethiopia', 'Eswatini', 'Eritrea', 'Equatorial Guinea', 'Djibouti', 
          'Congo', 'Congo', 'Chad', 'Central African Republic', 'Cameroon',
-         'Benin', 'Uganda']
+         'Benin', 'Uganda' , 'Rwanda', 'Seychelles', 'Namibia', 'Liberia',
+        'Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi']
 
 region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
 
@@ -574,13 +575,13 @@ def stacked_active(view, column):
         scope = 1000
     elif view == 'United States':
         df = df_us
-        scope = 20
+        scope = 1000
     elif view == 'Europe':
         df = df_eu
         scope = 1000
     elif view == 'Africa':
         df = df_af
-        scope = 20
+        scope = 40
     else:
         df = data
         scope = 1000
