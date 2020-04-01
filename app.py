@@ -18,7 +18,7 @@ from plotly.offline import iplot, init_notebook_mode
 import cufflinks
 cufflinks.go_offline(connected=True)
 init_notebook_mode(connected=True)
-from flask import Flask
+
 
 app = dash.Dash(__name__)
 
