@@ -521,8 +521,13 @@ def set_countries_value(view, available_options):
     elif view == 'Europe':
         return ['France', 'Germany', 'Italy', 'Spain', 'United Kingdom']
     elif view == 'Africa':
+<<<<<<< HEAD
         return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Morocco',
        'Guinea-Bissau',  "Cote d'Ivoire", 'Uganda']
+=======
+        return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Morocco',
+       'Guinea-Bissau',  "Cote d'Ivoire", "Mali"]
+>>>>>>> b36fb9c171096249cbb8ccd36eeb085a12458c8e
     else:
         return ['China', 'Italy', 'South Korea', 'US', 'Spain', 'France', 'Germany']
 
