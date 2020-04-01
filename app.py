@@ -579,8 +579,8 @@ def stacked_active(view, column):
         df = df_eu
         scope = 1000
     elif view == 'Africa':
-        df = df_af
-        scope = 20
+        df = data
+        scope = 30
     else:
         df = data
         scope = 1000
