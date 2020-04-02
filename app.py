@@ -281,20 +281,11 @@ eu = ['Albania', 'Andorra', 'Austria', 'Belarus', 'Belgium', 'Bosnia and Herzego
     'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom', 'Vatican City']
     
 africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
-       'Guinea-Bissau', 'Gambia', "Cote d'Ivoire", 'Cabo Verde', 'Burkina Faso',
-       'Mauritania', 'Morocco', 'Zimbabwe', 'Zambia', 'Tunisia', 'Togo',
-<<<<<<< HEAD
+       'Guinea-Bissau', 'Gambia', "Cote d'Ivoire", 'Cabo Verde', 'Burkina Faso', 'Mauritania', 'Morocco', 'Zimbabwe', 'Zambia', 'Tunisia', 'Togo',
        'Somalia', 'Niger', 'Madagascar', 'Libya', 'Guinea', 'Ghana', 'Gabon',
        'Ethiopia', 'Eswatini', 'Eritrea', 'Equatorial Guinea', 'Djibouti','Congo', 
        'Congo', 'Republic of the Congo', 'Chad', 'Central African Republic', 'Cameroon',
-       'Benin', 'Uganda', 'Rwanda', 'Seychelles', 'Namibia', 'Liberia',
-=======
-        'Somalia', 'Niger', 'Madagascar', 'Libya', 'Guinea', 'Ghana', 'Gabon',
-         'Ethiopia', 'Eswatini', 'Eritrea', 'Equatorial Guinea', 'Djibouti', 
-         'Congo', 'Congo', 'Chad', 'Central African Republic', 'Cameroon',
-         'Benin', 'Uganda' , 'Rwanda', 'Seychelles', 'Namibia', 'Liberia',
->>>>>>> 0a8326b4cca932c4387882298364026ff5df4712
-        'Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi']
+       'Benin', 'Uganda', 'Rwanda', 'Seychelles', 'Namibia', 'Liberia','Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi']
 
 region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
 
