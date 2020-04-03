@@ -287,7 +287,8 @@ africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
     'Ethiopia', 'Eswatini', 'Eritrea', 'Equatorial Guinea', 'Djibouti','Congo', 
     'Congo', 'Republic of the Congo', 'Chad', 'Central African Republic', 'Cameroon',
     'Benin', 'Uganda', 'Rwanda', 'Seychelles', 'Namibia', 'Liberia',
-    'Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi']
+    'Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi', 'Botswana',
+    'Malawi', 'Mozambique']
 
 region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
 
