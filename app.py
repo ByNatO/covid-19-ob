@@ -252,7 +252,6 @@ def etl(source='web'):
 # data = etl(source='folder')
 data = pd.read_csv('dashboard_data.csv')
 data['date'] = pd.to_datetime(data['date'])
-update = data['date'].dt.strftime('%B %d, %Y').max()
 
 geo_us = pd.read_csv('geo_us.csv')
 
@@ -745,11 +744,6 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             'color': colors['text']
             }
         ),
-    
-    html.Div(children='Data last updated {} '.format(update), style={
-        'textAlign': 'center',
-        'color': colors['text']
-        }),
 
     html.Div(children='Select focus for the dashboard', style={
         'textAlign': 'center',
