@@ -290,7 +290,7 @@ africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
     'Benin', 'Uganda', 'Rwanda', 'Seychelles', 'Namibia', 'Liberia',
     'Sudan', 'Tanzania', 'Algeria', 'Angola', 'Burundi', 'Botswana',
     'Malawi', 'Mozambique', 'Sierra Leone', 'South Sudan', 'Western Sahara',
-    'Sierra Leone']
+    'Sierra Leone', 'Comoros','Sao Tome and Principe']
 
 region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
 
