@@ -2,6 +2,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import dash_table as dt
 
 import pandas as pd
 import numpy as np
@@ -292,11 +293,16 @@ africa = ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Kenya',
     'Malawi', 'Mozambique', 'Sierra Leone', 'South Sudan', 'Western Sahara',
     'Sierra Leone', 'Comoros','Sao Tome and Principe']
 
-region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa}
+ecowas = ['Senegal', 'Nigeria', 'Mali', 'Guinea-Bissau', 'Gambia', "Cote d'Ivoire", 'Cabo Verde', 'Burkina Faso',
+       'Sierra Leone', 'Togo', 'Niger', 'Guinea', 'Ghana','Benin', 'Liberia']
+
+region_options = {'Worldwide': available_countries, 'United States': states, 'Europe': eu, 'Africa': africa, 'Ecowas': ecowas}
 
 df_us = data[data['Province/State'].isin(states)]
 df_eu = data[data['Country/Region'].isin(eu)]
 df_af = data[data['Country/Region'].isin(africa)]
+df_ew = data[data['Country/Region'].isin(ecowas)]
+
 df_eu = df_eu.append(pd.DataFrame({'date': [pd.to_datetime('2020-01-22'), pd.to_datetime('2020-01-23')],
                           'Country/Region': ['France', 'France'],
                           'Province/State': [np.nan, np.nan],
@@ -322,6 +328,8 @@ def confirmed(view):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -359,6 +367,8 @@ def active(view):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -396,6 +406,8 @@ def recovered(view):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -433,6 +445,8 @@ def deaths(view):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -470,6 +484,8 @@ def worldwide_trend(view):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -527,6 +543,9 @@ def set_countries_value(view, available_options):
     elif view == 'Africa':
         return ['Senegal', 'Egypt', 'South Africa', 'Nigeria', 'Mali', 'Morocco',
                'Algeria',  "Cote d'Ivoire", 'Uganda']
+    elif view == 'Ecowas':
+        return ['Senegal', 'Nigeria', 'Mali', 'Guinea-Bissau', 'Gambia', "Cote d'Ivoire", 'Cabo Verde', 'Burkina Faso',
+                'Sierra Leone', 'Togo', 'Niger', 'Guinea', 'Ghana','Benin', 'Liberia']
     else:
         return ['China', 'Italy', 'South Korea', 'US', 'Spain', 'France', 'Germany']
 
@@ -543,6 +562,8 @@ def active_countries(view, countries):
         df = df_eu
     elif view == 'Africa':
         df = df_af
+    elif view == 'Ecowas':
+        df = df_ew
     else:
         df = data
 
@@ -585,6 +606,9 @@ def stacked_active(view, column):
     elif view == 'Africa':
         df = df_af
         scope = 50
+    elif view == 'Ecowas':
+        df = df_ew
+        scope = 4
     else:
         df = data
         scope = 1000
@@ -641,6 +665,10 @@ def world_map_active(view, date_index):
         scope='europe'
         projection_type='natural earth'
     elif view == 'Africa':
+        df = data
+        scope='africa'
+        projection_type='natural earth'
+    elif view == 'Ecowas':
         df = data
         scope='africa'
         projection_type='natural earth'
@@ -737,7 +765,133 @@ def world_map_active(view, date_index):
                 plot_bgcolor=colors['background']
             )
         }
-
+@app.callback(
+    Output('table1', 'children'),
+    [Input('global_format', 'value')])
+def update_datatable(view):
+    if view == 'Africa':
+        df = df_af
+        df = df.groupby('Country/Region')['Country/Region', 'Confirmed', 'Active',
+                        'Recovered', 'Deaths'].agg(['last'])
+        df.columns = df.columns.droplevel(1)
+        return html.Div([
+            html.H4(children='COVID-19 UPDATE (Africa)',
+                    style = {'color': 'white',
+                            'textAlign': 'center',}),
+            dt.DataTable(
+                        data=df.to_dict('rows'),
+                        columns=[{'name': i, 'id': i} for i in df.columns],
+                        style_header={'backgroundColor': colors['red'],
+                                'fontWeight': 'bold',
+                                'textAlign': 'center',
+                                'text-transform': 'uppercase',
+                                'color': 'white',
+                                'border': '1px solid red',
+                                'overflowY': 'hidden',},
+                        style_cell_conditional=[{
+                                    'if': {'column_id': c},
+                                    'textAlign': 'center',
+                                    "fontWeight": "bold"
+                                    } for c in ['Confirmed', 'Active','Recovered', 'Deaths']],
+            
+                        style_data_conditional=[{
+                                    #'if': {'row_index': 'odd'},
+                                    'if': {'column_id': 'Country/Region'},
+                                    'textAlign': 'left',
+                                    "fontWeight": "bold",
+                                    'backgroundColor': colors['text'],
+                                    'text-transform': 'uppercase',
+                                    
+                                }],
+                        #style_table={'overflowX': 'scroll'},
+                        style_table={'maxHeight': '700px',
+                                    #'width': '100%',
+                                    'overflowY': 'scroll',
+                                    'textAlign': 'center',
+                                    #'margin' : 'auto'
+                                    #'margin-left' : 'auto',
+                                    #'margin-right' : 'auto'
+                                    }, 
+                        style_cell={'minWidth': '180px',
+                                'width': '180px',
+                                'maxWidth': '180px',
+                                'whiteSpace': 'normal',
+                                },
+                        #style_data={ 'border': '1px solid' },
+                        #style_data = {'textAlign': 'center'},
+                        #style_data={ 'border': '1px solid gray' },                        
+                        #filtering=True,
+                        #row_selectable="multi",
+                        #_fixed_rows=1
+                        ),
+                html.Hr()
+                ])
+    elif view == 'Ecowas':
+        df = df_ew
+        df = df.groupby('Country/Region')['Country/Region', 'Confirmed', 'Active',
+                        'Recovered', 'Deaths'].agg(['last'])
+        df.columns = df.columns.droplevel(1)
+        return html.Div([
+            html.H4(children='COVID-19 UPDATE (ECOWAS)',
+                    style = {'color': 'white',
+                            'textAlign': 'center',}),
+            dt.DataTable(
+                        data=df.to_dict('rows'),
+                        columns=[{'name': i, 'id': i} for i in df.columns],
+                        style_header={'backgroundColor': colors['red'],
+                                'fontWeight': 'bold',
+                                'textAlign': 'center',
+                                'text-transform': 'uppercase',
+                                'color': 'white',
+                                'border': '1px solid red',
+                                'overflowY': 'hidden',},
+                        style_cell_conditional=[{
+                                    'if': {'column_id': c},
+                                    'textAlign': 'center',
+                                    "fontWeight": "bold"
+                                    } for c in ['Confirmed', 'Active','Recovered', 'Deaths']],
+            
+                        style_data_conditional=[{
+                                    #'if': {'row_index': 'odd'},
+                                    'if': {'column_id': 'Country/Region'},
+                                    'textAlign': 'left',
+                                    "fontWeight": "bold",
+                                    'backgroundColor': colors['text'],
+                                    'text-transform': 'uppercase',
+                                    
+                                }],
+                        #style_table={'overflowX': 'scroll'},
+                        style_table={'maxHeight': '700px',
+                                    #'width': '100%',
+                                    'overflowY': 'scroll',
+                                    'textAlign': 'center',
+                                    #'margin' : 'auto'
+                                    #'margin-left' : 'auto',
+                                    #'margin-right' : 'auto'
+                                    }, 
+                        style_cell={'minWidth': '180px',
+                                'width': '180px',
+                                'maxWidth': '180px',
+                                'whiteSpace': 'normal',
+                                },
+                        #style_data={ 'border': '1px solid' },
+                        #style_data = {'textAlign': 'center'},
+                        #style_data={ 'border': '1px solid gray' },                        
+                        #filtering=True,
+                        #row_selectable="multi",
+                        #_fixed_rows=1
+                        ),
+                html.Hr()
+                ])
+        
+    elif view == 'Worldwide':
+        pass
+    elif view == 'United States':
+        pass
+    elif view == 'Europe':
+        pass
+    else:
+        pass
 
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(children='COVID-19',
@@ -760,7 +914,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     html.Div(
         dcc.RadioItems(
             id='global_format',
-            options=[{'label': i, 'value': i} for i in ['Worldwide', 'United States', 'Europe', 'Africa']],
+            options=[{'label': i, 'value': i} for i in ['Worldwide', 'United States', 'Europe', 'Africa', 'Ecowas']],
             value='Worldwide',
             labelStyle={'float': 'center', 'display': 'inline-block'}
             ), style={'textAlign': 'center',
@@ -877,11 +1031,17 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             'width': '100%',
             'float': 'center',
             'display': 'inline-block'}),
+    html.Div([
+        
+        html.Table(id='table1',
+                   style = {'margin': 'auto',},
+                   ),
+    ]),
     
     html.Div(
         dcc.Markdown('''
             Built by [Greg Rafferty](https://www.linkedin.com/in/gregrafferty/)
-            Customized for Africa by [Omar Badiane] (https://www.linkedin.com/in/omar-badiane-b026b7168/)
+            , [Omar Badiane] (https://www.linkedin.com/in/omar-badiane-b026b7168/)
             Source data: [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
             '''),
             style={
