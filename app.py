@@ -1041,7 +1041,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     html.Div(
         dcc.Markdown('''
             Built by [Greg Rafferty](https://www.linkedin.com/in/gregrafferty/)
-            Customized for Africa by [Omar Badiane] (https://www.linkedin.com/in/omar-badiane-b026b7168/)
+            Customized for Africa by [Omar Badiane] (https://www.linkedin.com/in/omar-badiane/)
             Source data: [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
             '''),
             style={
