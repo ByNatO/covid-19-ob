@@ -109,7 +109,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 51015.0,Augusta,Virginia,US,2020-03-25 23:33:19,38.16404586,-79.12461614,0,0,0,0,"Augusta, Virginia, US"
 46003.0,Aurora,South Dakota,US,2020-03-25 23:33:19,43.71757685,-98.56050467,0,0,0,0,"Aurora, South Dakota, US"
 48015.0,Austin,Texas,US,2020-03-25 23:33:19,29.88548725,-96.27736949,0,0,0,0,"Austin, Texas, US"
-1001.0,Autauga,Alabama,US,2020-03-25 23:33:19,32.53952745,-86.64408227,4,0,0,0,"Autauga, Alabama, US"
+1001.0,Autauga,Alabama,US,2020-03-25 23:33:19,32.53952745,-86.64408227,5,0,0,0,"Autauga, Alabama, US"
 37011.0,Avery,North Carolina,US,2020-03-25 23:33:19,36.07569796,-81.92308483,0,0,0,0,"Avery, North Carolina, US"
 22009.0,Avoyelles,Louisiana,US,2020-03-25 23:33:19,31.07796211,-92.00079449,5,0,0,0,"Avoyelles, Louisiana, US"
 8009.0,Baca,Colorado,US,2020-03-25 23:33:19,37.31940883,-102.5603223,0,0,0,0,"Baca, Colorado, US"
@@ -118,7 +118,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 12003.0,Baker,Florida,US,2020-03-25 23:33:19,30.33060121,-82.28467476,5,0,0,0,"Baker, Florida, US"
 13007.0,Baker,Georgia,US,2020-03-25 23:33:19,31.32669878,-84.44218806,3,0,0,0,"Baker, Georgia, US"
 41001.0,Baker,Oregon,US,2020-03-25 23:33:19,44.70915557,-117.6749883,0,0,0,0,"Baker, Oregon, US"
-1003.0,Baldwin,Alabama,US,2020-03-25 23:33:19,30.72774991,-87.72207058,4,0,0,0,"Baldwin, Alabama, US"
+1003.0,Baldwin,Alabama,US,2020-03-25 23:33:19,30.72774991,-87.72207058,5,0,0,0,"Baldwin, Alabama, US"
 13009.0,Baldwin,Georgia,US,2020-03-25 23:33:19,33.06882326,-83.24701748,2,0,0,0,"Baldwin, Georgia, US"
 21007.0,Ballard,Kentucky,US,2020-03-25 23:33:19,37.05842757,-88.99427697,0,0,0,0,"Ballard, Kentucky, US"
 24005.0,Baltimore,Maryland,US,2020-03-25 23:33:19,39.45784712,-76.62911955,51,1,0,0,"Baltimore, Maryland, US"
@@ -220,7 +220,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 51021.0,Bland,Virginia,US,2020-03-25 23:33:19,37.13128068,-81.13599391,0,0,0,0,"Bland, Virginia, US"
 13023.0,Bleckley,Georgia,US,2020-03-25 23:33:19,32.43829035,-83.33035166,0,0,0,0,"Bleckley, Georgia, US"
 47007.0,Bledsoe,Tennessee,US,2020-03-25 23:33:19,35.59942968,-85.20611967,0,0,0,0,"Bledsoe, Tennessee, US"
-1009.0,Blount,Alabama,US,2020-03-25 23:33:19,33.98210918,-86.56790593,1,0,0,0,"Blount, Alabama, US"
+1009.0,Blount,Alabama,US,2020-03-25 23:33:19,33.98210918,-86.56790593,3,0,0,0,"Blount, Alabama, US"
 47009.0,Blount,Tennessee,US,2020-03-25 23:33:19,35.68938198,-83.92847788,3,0,0,0,"Blount, Tennessee, US"
 27013.0,Blue Earth,Minnesota,US,2020-03-25 23:33:19,44.03554215,-94.06699781,5,0,0,0,"Blue Earth, Minnesota, US"
 16015.0,Boise,Idaho,US,2020-03-25 23:33:19,43.98829931,-115.7309284,0,0,0,0,"Boise, Idaho, US"
@@ -442,7 +442,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 42027.0,Centre,Pennsylvania,US,2020-03-25 23:33:19,40.92058903,-77.82200624,8,0,0,0,"Centre, Pennsylvania, US"
 19033.0,Cerro Gordo,Iowa,US,2020-03-25 23:33:19,43.08177563,-93.2612239,2,0,0,0,"Cerro Gordo, Iowa, US"
 8015.0,Chaffee,Colorado,US,2020-03-25 23:33:19,38.74745778,-106.19265729999998,3,0,0,0,"Chaffee, Colorado, US"
-1017.0,Chambers,Alabama,US,2020-03-25 23:33:19,32.91360079,-85.39072749,10,0,0,0,"Chambers, Alabama, US"
+1017.0,Chambers,Alabama,US,2020-03-25 23:33:19,32.91360079,-85.39072749,9,0,0,0,"Chambers, Alabama, US"
 48071.0,Chambers,Texas,US,2020-03-25 23:33:19,29.70972016,-94.67154501,1,0,0,0,"Chambers, Texas, US"
 17019.0,Champaign,Illinois,US,2020-03-25 23:33:19,40.13919438,-88.20046615,4,0,0,0,"Champaign, Illinois, US"
 39021.0,Champaign,Ohio,US,2020-03-25 23:33:19,40.13923427,-83.76875242,1,0,0,0,"Champaign, Ohio, US"
@@ -493,7 +493,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 28017.0,Chickasaw,Mississippi,US,2020-03-25 23:33:19,33.91983202,-88.9481545,6,0,0,0,"Chickasaw, Mississippi, US"
 5017.0,Chicot,Arkansas,US,2020-03-25 23:33:19,33.26458973,-91.29539209,0,0,0,0,"Chicot, Arkansas, US"
 48075.0,Childress,Texas,US,2020-03-25 23:33:19,34.529304100000004,-100.2077916,0,0,0,0,"Childress, Texas, US"
-1021.0,Chilton,Alabama,US,2020-03-25 23:33:19,32.85044126,-86.7173256,1,0,0,0,"Chilton, Alabama, US"
+1021.0,Chilton,Alabama,US,2020-03-25 23:33:19,32.85044126,-86.7173256,4,0,0,0,"Chilton, Alabama, US"
 26033.0,Chippewa,Michigan,US,2020-03-25 23:33:19,46.29552653,-84.54353449,1,0,0,0,"Chippewa, Michigan, US"
 27023.0,Chippewa,Minnesota,US,2020-03-25 23:33:19,45.02343421,-95.56403693,0,0,0,0,"Chippewa, Minnesota, US"
 55017.0,Chippewa,Wisconsin,US,2020-03-25 23:33:19,45.06939744,-91.28068855,1,0,0,0,"Chippewa, Wisconsin, US"
@@ -633,7 +633,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 29053.0,Cooper,Missouri,US,2020-03-25 23:33:19,38.844478,-92.80896081,1,0,0,0,"Cooper, Missouri, US"
 33007.0,Coos,New Hampshire,US,2020-03-25 23:33:19,44.69063265,-71.30633239,0,0,0,0,"Coos, New Hampshire, US"
 41011.0,Coos,Oregon,US,2020-03-25 23:33:19,43.17406868,-124.0594514,0,0,0,0,"Coos, Oregon, US"
-1037.0,Coosa,Alabama,US,2020-03-25 23:33:19,32.93690146,-86.24847739,0,0,0,0,"Coosa, Alabama, US"
+1037.0,Coosa,Alabama,US,2020-03-25 23:33:19,32.93690146,-86.24847739,1,0,0,0,"Coosa, Alabama, US"
 28029.0,Copiah,Mississippi,US,2020-03-25 23:33:19,31.86977774,-90.44565118,6,0,0,0,"Copiah, Mississippi, US"
 46031.0,Corson,South Dakota,US,2020-03-25 23:33:19,45.70889983,-101.1970473,0,0,0,0,"Corson, South Dakota, US"
 36023.0,Cortland,New York,US,2020-03-25 23:33:19,42.59509207,-76.07048931,3,0,0,0,"Cortland, New York, US"
@@ -679,7 +679,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 27035.0,Crow Wing,Minnesota,US,2020-03-25 23:33:19,46.48096553,-94.06755609,0,0,0,0,"Crow Wing, Minnesota, US"
 8025.0,Crowley,Colorado,US,2020-03-25 23:33:19,38.32608609,-103.7844965,1,1,0,0,"Crowley, Colorado, US"
 48109.0,Culberson,Texas,US,2020-03-25 23:33:19,31.44506775,-104.5185739,0,0,0,0,"Culberson, Texas, US"
-1043.0,Cullman,Alabama,US,2020-03-25 23:33:19,34.13020303,-86.86888037,4,0,0,0,"Cullman, Alabama, US"
+1043.0,Cullman,Alabama,US,2020-03-25 23:33:19,34.13020303,-86.86888037,6,0,0,0,"Cullman, Alabama, US"
 51047.0,Culpeper,Virginia,US,2020-03-25 23:33:19,38.48199985,-77.95630870000002,2,0,0,0,"Culpeper, Virginia, US"
 17035.0,Cumberland,Illinois,US,2020-03-25 23:33:19,39.27432424,-88.2401158,1,0,0,0,"Cumberland, Illinois, US"
 21057.0,Cumberland,Kentucky,US,2020-03-25 23:33:19,36.78926125,-85.39050034,0,0,0,0,"Cumberland, Kentucky, US"
@@ -737,7 +737,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 35011.0,De Baca,New Mexico,US,2020-03-25 23:33:19,34.34274529,-104.4117842,0,0,0,0,"De Baca, New Mexico, US"
 22031.0,De Soto,Louisiana,US,2020-03-25 23:33:19,32.05457447,-93.74130302,8,0,0,0,"De Soto, Louisiana, US"
 17039.0,De Witt,Illinois,US,2020-03-25 23:33:19,40.17514519,-88.90959682,0,0,0,0,"De Witt, Illinois, US"
-1049.0,DeKalb,Alabama,US,2020-03-25 23:33:19,34.45946862,-85.80782906,0,0,0,0,"DeKalb, Alabama, US"
+1049.0,DeKalb,Alabama,US,2020-03-25 23:33:19,34.45946862,-85.80782906,1,0,0,0,"DeKalb, Alabama, US"
 13089.0,DeKalb,Georgia,US,2020-03-25 23:33:19,33.76944049,-84.22396017,116,0,0,0,"DeKalb, Georgia, US"
 17037.0,DeKalb,Illinois,US,2020-03-25 23:33:19,41.89373302,-88.76958483,1,0,0,0,"DeKalb, Illinois, US"
 18033.0,DeKalb,Indiana,US,2020-03-25 23:33:19,41.39804622,-84.99906934,1,0,0,0,"DeKalb, Indiana, US"
@@ -767,7 +767,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 48119.0,Delta,Texas,US,2020-03-25 23:33:19,33.38570922,-95.66921122,0,0,0,0,"Delta, Texas, US"
 2068.0,Denali,Alaska,US,2020-03-25 23:33:19,63.67264044,-150.0076108,0,0,0,0,"Denali, Alaska, US"
 29065.0,Dent,Missouri,US,2020-03-25 23:33:19,37.60663134,-91.50790473,0,0,0,0,"Dent, Missouri, US"
-48121.0,Denton,Texas,US,2020-03-25 23:33:19,33.20521901,-97.11691153,51,0,0,0,"Denton, Texas, US"
+48121.0,Denton,Texas,US,2020-03-25 23:33:19,33.20521901,-97.11691153,70,0,0,0,"Denton, Texas, US"
 8031.0,Denver,Colorado,US,2020-03-25 23:33:19,39.76018276,-104.8725695,214,3,0,0,"Denver, Colorado, US"
 19057.0,Des Moines,Iowa,US,2020-03-25 23:33:19,40.92012606,-91.18326592,1,0,0,0,"Des Moines, Iowa, US"
 41017.0,Deschutes,Oregon,US,2020-03-25 23:33:19,43.91570171,-121.2289121,10,0,0,0,"Deschutes, Oregon, US"
@@ -893,7 +893,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 50009.0,Essex,Vermont,US,2020-03-25 23:33:19,44.72736416,-71.73579864,0,0,0,0,"Essex, Vermont, US"
 51057.0,Essex,Virginia,US,2020-03-25 23:33:19,37.93357639,-76.94230311,0,0,0,0,"Essex, Virginia, US"
 21065.0,Estill,Kentucky,US,2020-03-25 23:33:19,37.69241417,-83.95956369,0,0,0,0,"Estill, Kentucky, US"
-1055.0,Etowah,Alabama,US,2020-03-25 23:33:19,34.04567266,-86.04051873,0,0,0,0,"Etowah, Alabama, US"
+1055.0,Etowah,Alabama,US,2020-03-25 23:33:19,34.04567266,-86.04051873,3,0,0,0,"Etowah, Alabama, US"
 32011.0,Eureka,Nevada,US,2020-03-25 23:33:19,39.98100864,-116.2683204,0,0,0,0,"Eureka, Nevada, US"
 22039.0,Evangeline,Louisiana,US,2020-03-25 23:33:19,30.72985248,-92.39915924,2,0,0,0,"Evangeline, Louisiana, US"
 13109.0,Evans,Georgia,US,2020-03-25 23:33:19,32.15328841,-81.8870105,0,0,0,0,"Evans, Georgia, US"
@@ -1399,7 +1399,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 18075.0,Jay,Indiana,US,2020-03-25 23:33:19,40.43781032,-85.00576229,0,0,0,0,"Jay, Indiana, US"
 13161.0,Jeff Davis,Georgia,US,2020-03-25 23:33:19,31.80405727,-82.63724870000001,0,0,0,0,"Jeff Davis, Georgia, US"
 48243.0,Jeff Davis,Texas,US,2020-03-25 23:33:19,30.71490589,-104.1399973,0,0,0,0,"Jeff Davis, Texas, US"
-1073.0,Jefferson,Alabama,US,2020-03-25 23:33:19,33.55554728,-86.89506300000002,129,0,0,0,"Jefferson, Alabama, US"
+1073.0,Jefferson,Alabama,US,2020-03-25 23:33:19,33.55554728,-86.89506300000002,141,0,0,0,"Jefferson, Alabama, US"
 5069.0,Jefferson,Arkansas,US,2020-03-25 23:33:19,34.26767081,-91.92619839,22,0,0,0,"Jefferson, Arkansas, US"
 8059.0,Jefferson,Colorado,US,2020-03-25 23:33:19,39.58635604,-105.2517692,93,2,0,0,"Jefferson, Colorado, US"
 12065.0,Jefferson,Florida,US,2020-03-25 23:33:19,30.43669112,-83.89442308,0,0,0,0,"Jefferson, Florida, US"
@@ -1599,14 +1599,14 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 6035.0,Lassen,California,US,2020-03-25 23:33:19,40.67311306,-120.59350990000002,0,0,0,0,"Lassen, California, US"
 16057.0,Latah,Idaho,US,2020-03-25 23:33:19,46.81587887,-116.7113698,0,0,0,0,"Latah, Idaho, US"
 40077.0,Latimer,Oklahoma,US,2020-03-25 23:33:19,34.87844729,-95.25215049,0,0,0,0,"Latimer, Oklahoma, US"
-1077.0,Lauderdale,Alabama,US,2020-03-25 23:33:19,34.90171875,-87.65624729,6,0,0,0,"Lauderdale, Alabama, US"
+1077.0,Lauderdale,Alabama,US,2020-03-25 23:33:19,34.90171875,-87.65624729,7,0,0,0,"Lauderdale, Alabama, US"
 28075.0,Lauderdale,Mississippi,US,2020-03-25 23:33:19,32.40419769,-88.66229662,0,0,0,0,"Lauderdale, Mississippi, US"
 47097.0,Lauderdale,Tennessee,US,2020-03-25 23:33:19,35.75893438,-89.63015909999999,0,0,0,0,"Lauderdale, Tennessee, US"
 21125.0,Laurel,Kentucky,US,2020-03-25 23:33:19,37.10975748,-84.11321779,1,0,0,0,"Laurel, Kentucky, US"
 13175.0,Laurens,Georgia,US,2020-03-25 23:33:19,32.46325233,-82.92221316,6,0,0,0,"Laurens, Georgia, US"
 45059.0,Laurens,South Carolina,US,2020-03-25 23:33:19,34.48244419,-82.00490796,0,0,0,0,"Laurens, South Carolina, US"
 48285.0,Lavaca,Texas,US,2020-03-25 23:33:19,29.38508402,-96.93186692,1,0,0,0,"Lavaca, Texas, US"
-1079.0,Lawrence,Alabama,US,2020-03-25 23:33:19,34.52041498,-87.31069453,0,0,0,0,"Lawrence, Alabama, US"
+1079.0,Lawrence,Alabama,US,2020-03-25 23:33:19,34.52041498,-87.31069453,1,0,0,0,"Lawrence, Alabama, US"
 5075.0,Lawrence,Arkansas,US,2020-03-25 23:33:19,36.04188196,-91.10867198,0,0,0,0,"Lawrence, Arkansas, US"
 17101.0,Lawrence,Illinois,US,2020-03-25 23:33:19,38.71987914,-87.72884035,0,0,0,0,"Lawrence, Illinois, US"
 18093.0,Lawrence,Indiana,US,2020-03-25 23:33:19,38.84112637,-86.48361629,1,0,0,0,"Lawrence, Indiana, US"
@@ -1623,7 +1623,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 28079.0,Leake,Mississippi,US,2020-03-25 23:33:19,32.7536828,-89.52402044,3,0,0,0,"Leake, Mississippi, US"
 20103.0,Leavenworth,Kansas,US,2020-03-25 23:33:19,39.20183497,-95.03620809,11,0,0,0,"Leavenworth, Kansas, US"
 42075.0,Lebanon,Pennsylvania,US,2020-03-25 23:33:19,40.36680311,-76.45651841,3,0,0,0,"Lebanon, Pennsylvania, US"
-1081.0,Lee,Alabama,US,2020-03-25 23:33:19,32.60154883,-85.35132246,40,0,0,0,"Lee, Alabama, US"
+1081.0,Lee,Alabama,US,2020-03-25 23:33:19,32.60154883,-85.35132246,45,0,0,0,"Lee, Alabama, US"
 5077.0,Lee,Arkansas,US,2020-03-25 23:33:19,34.78498904,-90.78383866,0,0,0,0,"Lee, Arkansas, US"
 12071.0,Lee,Florida,US,2020-03-25 23:33:19,26.58410348,-81.88399313,42,3,0,0,"Lee, Florida, US"
 13177.0,Lee,Georgia,US,2020-03-25 23:33:19,31.779330600000005,-84.14324253,25,0,0,0,"Lee, Georgia, US"
@@ -1661,7 +1661,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 30051.0,Liberty,Montana,US,2020-03-25 23:33:19,48.56084317,-111.024307,0,0,0,0,"Liberty, Montana, US"
 48291.0,Liberty,Texas,US,2020-03-25 23:33:19,30.15152688,-94.81205615,1,0,0,0,"Liberty, Texas, US"
 39089.0,Licking,Ohio,US,2020-03-25 23:33:19,40.09136236,-82.48185785,3,0,0,0,"Licking, Ohio, US"
-1083.0,Limestone,Alabama,US,2020-03-25 23:33:19,34.81185586,-86.98310072,6,0,0,0,"Limestone, Alabama, US"
+1083.0,Limestone,Alabama,US,2020-03-25 23:33:19,34.81185586,-86.98310072,10,0,0,0,"Limestone, Alabama, US"
 48293.0,Limestone,Texas,US,2020-03-25 23:33:19,31.5454767,-96.58095444,1,0,0,0,"Limestone, Texas, US"
 5079.0,Lincoln,Arkansas,US,2020-03-25 23:33:19,33.95317155,-91.74002806,2,0,0,0,"Lincoln, Arkansas, US"
 8073.0,Lincoln,Colorado,US,2020-03-25 23:33:19,38.98749519,-103.5136649,0,0,0,0,"Lincoln, Colorado, US"
@@ -1724,7 +1724,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 31115.0,Loup,Nebraska,US,2020-03-25 23:33:19,41.91371961,-99.45440415,0,0,0,0,"Loup, Nebraska, US"
 40085.0,Love,Oklahoma,US,2020-03-25 23:33:19,33.95273467,-97.23906784,0,0,0,0,"Love, Oklahoma, US"
 48301.0,Loving,Texas,US,2020-03-25 23:33:19,31.84947612,-103.5818571,0,0,0,0,"Loving, Texas, US"
-1085.0,Lowndes,Alabama,US,2020-03-25 23:33:19,32.1597283,-86.65158371,0,0,0,0,"Lowndes, Alabama, US"
+1085.0,Lowndes,Alabama,US,2020-03-25 23:33:19,32.1597283,-86.65158371,1,0,0,0,"Lowndes, Alabama, US"
 13185.0,Lowndes,Georgia,US,2020-03-25 23:33:19,30.83568832,-83.27056716,11,0,0,0,"Lowndes, Georgia, US"
 28087.0,Lowndes,Mississippi,US,2020-03-25 23:33:19,33.47386518,-88.44191529999998,6,0,0,0,"Lowndes, Mississippi, US"
 48303.0,Lubbock,Texas,US,2020-03-25 23:33:19,33.61008596,-101.8204789,13,0,0,0,"Lubbock, Texas, US"
@@ -1754,7 +1754,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 47111.0,Macon,Tennessee,US,2020-03-25 23:33:19,36.53157855,-86.00778595,0,0,0,0,"Macon, Tennessee, US"
 17117.0,Macoupin,Illinois,US,2020-03-25 23:33:19,39.26119767,-89.92424028,0,0,0,0,"Macoupin, Illinois, US"
 6039.0,Madera,California,US,2020-03-25 23:33:19,37.21513971,-119.76655890000002,6,0,0,0,"Madera, California, US"
-1089.0,Madison,Alabama,US,2020-03-25 23:33:19,34.76327133,-86.55069633,35,0,0,0,"Madison, Alabama, US"
+1089.0,Madison,Alabama,US,2020-03-25 23:33:19,34.76327133,-86.55069633,46,0,0,0,"Madison, Alabama, US"
 5087.0,Madison,Arkansas,US,2020-03-25 23:33:19,36.01038185,-93.72524943,0,0,0,0,"Madison, Arkansas, US"
 12079.0,Madison,Florida,US,2020-03-25 23:33:19,30.44396917,-83.47398594,0,0,0,0,"Madison, Florida, US"
 13195.0,Madison,Georgia,US,2020-03-25 23:33:19,34.12920917,-83.21218732,1,0,0,0,"Madison, Georgia, US"
@@ -1786,12 +1786,12 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 26101.0,Manistee,Michigan,US,2020-03-25 23:33:19,44.33352407,-86.05626916,1,0,0,0,"Manistee, Michigan, US"
 55071.0,Manitowoc,Wisconsin,US,2020-03-25 23:33:19,44.11946801,-87.80928853,0,0,0,0,"Manitowoc, Wisconsin, US"
 55073.0,Marathon,Wisconsin,US,2020-03-25 23:33:19,44.89792533,-89.75863384,1,0,0,0,"Marathon, Wisconsin, US"
-1091.0,Marengo,Alabama,US,2020-03-25 23:33:19,32.24767634,-87.78796182,0,0,0,0,"Marengo, Alabama, US"
+1091.0,Marengo,Alabama,US,2020-03-25 23:33:19,32.24767634,-87.78796182,1,0,0,0,"Marengo, Alabama, US"
 4013.0,Maricopa,Arizona,US,2020-03-25 23:33:19,33.34835867,-112.4918154,251,2,0,0,"Maricopa, Arizona, US"
 29125.0,Maries,Missouri,US,2020-03-25 23:33:19,38.16193985,-91.92249662,0,0,0,0,"Maries, Missouri, US"
 6041.0,Marin,California,US,2020-03-25 23:33:19,38.07122463,-122.7210631,53,0,0,0,"Marin, California, US"
 55075.0,Marinette,Wisconsin,US,2020-03-25 23:33:19,45.38553432,-88.03324599999998,0,0,0,0,"Marinette, Wisconsin, US"
-1093.0,Marion,Alabama,US,2020-03-25 23:33:19,34.13697363,-87.88704173,3,0,0,0,"Marion, Alabama, US"
+1093.0,Marion,Alabama,US,2020-03-25 23:33:19,34.13697363,-87.88704173,5,0,0,0,"Marion, Alabama, US"
 5089.0,Marion,Arkansas,US,2020-03-25 23:33:19,36.26844485,-92.68451899,0,0,0,0,"Marion, Arkansas, US"
 12083.0,Marion,Florida,US,2020-03-25 23:33:19,29.21227113,-82.05803627,5,0,0,0,"Marion, Florida, US"
 13197.0,Marion,Georgia,US,2020-03-25 23:33:19,32.3483402,-84.52733571,0,0,0,0,"Marion, Georgia, US"
@@ -1812,7 +1812,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 45069.0,Marlboro,South Carolina,US,2020-03-25 23:33:19,34.59905577,-79.67561152,1,0,0,0,"Marlboro, South Carolina, US"
 26103.0,Marquette,Michigan,US,2020-03-25 23:33:19,46.4338914,-87.64043701,1,0,0,0,"Marquette, Michigan, US"
 55077.0,Marquette,Wisconsin,US,2020-03-25 23:33:19,43.81911946,-89.40073763,0,0,0,0,"Marquette, Wisconsin, US"
-1095.0,Marshall,Alabama,US,2020-03-25 23:33:19,34.36975964,-86.30486727,1,0,0,0,"Marshall, Alabama, US"
+1095.0,Marshall,Alabama,US,2020-03-25 23:33:19,34.36975964,-86.30486727,3,0,0,0,"Marshall, Alabama, US"
 17123.0,Marshall,Illinois,US,2020-03-25 23:33:19,41.0327901,-89.34510444,1,0,0,0,"Marshall, Illinois, US"
 18099.0,Marshall,Indiana,US,2020-03-25 23:33:19,41.32467367,-86.26185087,0,0,0,0,"Marshall, Indiana, US"
 19127.0,Marshall,Iowa,US,2020-03-25 23:33:19,42.03586837,-92.9990819,0,0,0,0,"Marshall, Iowa, US"
@@ -1947,7 +1947,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 20123.0,Mitchell,Kansas,US,2020-03-25 23:33:19,39.39331582,-98.20906732,2,0,0,0,"Mitchell, Kansas, US"
 37121.0,Mitchell,North Carolina,US,2020-03-25 23:33:19,36.01059309,-82.1582442,0,0,0,0,"Mitchell, North Carolina, US"
 48335.0,Mitchell,Texas,US,2020-03-25 23:33:19,32.30623474,-100.9212058,0,0,0,0,"Mitchell, Texas, US"
-1097.0,Mobile,Alabama,US,2020-03-25 23:33:19,30.78472347,-88.20842409,10,0,0,0,"Mobile, Alabama, US"
+1097.0,Mobile,Alabama,US,2020-03-25 23:33:19,30.78472347,-88.20842409,12,0,0,0,"Mobile, Alabama, US"
 6049.0,Modoc,California,US,2020-03-25 23:33:19,41.58965602,-120.7244817,0,0,0,0,"Modoc, California, US"
 8081.0,Moffat,Colorado,US,2020-03-25 23:33:19,40.61810999,-108.2070876,0,0,0,0,"Moffat, Colorado, US"
 4015.0,Mohave,Arizona,US,2020-03-25 23:33:19,35.70471703,-113.7577902,0,0,0,0,"Mohave, Arizona, US"
@@ -1977,7 +1977,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 26117.0,Montcalm,Michigan,US,2020-03-25 23:33:19,43.31082541,-85.15252824,2,0,0,0,"Montcalm, Michigan, US"
 6053.0,Monterey,California,US,2020-03-25 23:33:19,36.21862405,-121.2413397,24,1,0,0,"Monterey, California, US"
 8083.0,Montezuma,Colorado,US,2020-03-25 23:33:19,37.33859579,-108.5958857,0,0,0,0,"Montezuma, Colorado, US"
-1101.0,Montgomery,Alabama,US,2020-03-25 23:33:19,32.2206831,-86.20969272,13,0,0,0,"Montgomery, Alabama, US"
+1101.0,Montgomery,Alabama,US,2020-03-25 23:33:19,32.2206831,-86.20969272,16,0,0,0,"Montgomery, Alabama, US"
 5097.0,Montgomery,Arkansas,US,2020-03-25 23:33:19,34.53704874,-93.65824478,0,0,0,0,"Montgomery, Arkansas, US"
 13209.0,Montgomery,Georgia,US,2020-03-25 23:33:19,32.17201038,-82.53527476,0,0,0,0,"Montgomery, Georgia, US"
 17135.0,Montgomery,Illinois,US,2020-03-25 23:33:19,39.23198845,-89.47809254,0,0,0,0,"Montgomery, Illinois, US"
@@ -2004,7 +2004,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 48341.0,Moore,Texas,US,2020-03-25 23:33:19,35.83769242,-101.8930281,0,0,0,0,"Moore, Texas, US"
 35033.0,Mora,New Mexico,US,2020-03-25 23:33:19,36.01095101,-104.9497716,0,0,0,0,"Mora, New Mexico, US"
 22067.0,Morehouse,Louisiana,US,2020-03-25 23:33:19,32.81686191,-91.80421614,1,0,0,0,"Morehouse, Louisiana, US"
-1103.0,Morgan,Alabama,US,2020-03-25 23:33:19,34.45500589,-86.85475946,5,0,0,0,"Morgan, Alabama, US"
+1103.0,Morgan,Alabama,US,2020-03-25 23:33:19,34.45500589,-86.85475946,7,0,0,0,"Morgan, Alabama, US"
 8087.0,Morgan,Colorado,US,2020-03-25 23:33:19,40.26279810000001,-103.8093302,3,0,0,0,"Morgan, Colorado, US"
 13211.0,Morgan,Georgia,US,2020-03-25 23:33:19,33.59232073,-83.49129491,1,0,0,0,"Morgan, Georgia, US"
 17137.0,Morgan,Illinois,US,2020-03-25 23:33:19,39.71654544,-90.20255104,0,0,0,0,"Morgan, Illinois, US"
@@ -2257,7 +2257,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 30071.0,Phillips,Montana,US,2020-03-25 23:33:19,48.25936577,-107.9128511,0,0,0,0,"Phillips, Montana, US"
 17147.0,Piatt,Illinois,US,2020-03-25 23:33:19,40.01360584,-88.59319339,0,0,0,0,"Piatt, Illinois, US"
 39129.0,Pickaway,Ohio,US,2020-03-25 23:33:19,39.64170392,-83.0243386,1,0,0,0,"Pickaway, Ohio, US"
-1107.0,Pickens,Alabama,US,2020-03-25 23:33:19,33.28094866,-88.08818103,1,0,0,0,"Pickens, Alabama, US"
+1107.0,Pickens,Alabama,US,2020-03-25 23:33:19,33.28094866,-88.08818103,2,0,0,0,"Pickens, Alabama, US"
 13227.0,Pickens,Georgia,US,2020-03-25 23:33:19,34.46589159,-84.46406611,4,0,0,0,"Pickens, Georgia, US"
 45077.0,Pickens,South Carolina,US,2020-03-25 23:33:19,34.88807695,-82.72791551,6,0,0,0,"Pickens, South Carolina, US"
 47137.0,Pickett,Tennessee,US,2020-03-25 23:33:19,36.55606529,-85.07763299999998,0,0,0,0,"Pickett, Tennessee, US"
@@ -2480,7 +2480,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 20165.0,Rush,Kansas,US,2020-03-25 23:33:19,38.52275276,-99.30863983,0,0,0,0,"Rush, Kansas, US"
 48401.0,Rusk,Texas,US,2020-03-25 23:33:19,32.10773545,-94.76176432,2,0,0,0,"Rusk, Texas, US"
 55107.0,Rusk,Wisconsin,US,2020-03-25 23:33:19,45.47498854,-91.1333012,0,0,0,0,"Rusk, Wisconsin, US"
-1113.0,Russell,Alabama,US,2020-03-25 23:33:19,32.28725256,-85.18415324,1,0,0,0,"Russell, Alabama, US"
+1113.0,Russell,Alabama,US,2020-03-25 23:33:19,32.28725256,-85.18415324,2,0,0,0,"Russell, Alabama, US"
 20167.0,Russell,Kansas,US,2020-03-25 23:33:19,38.91462787,-98.76254297,0,0,0,0,"Russell, Kansas, US"
 21207.0,Russell,Kentucky,US,2020-03-25 23:33:19,36.99308373,-85.06070117,0,0,0,0,"Russell, Kentucky, US"
 51167.0,Russell,Virginia,US,2020-03-25 23:33:19,36.93028320000001,-82.10095486,0,0,0,0,"Russell, Virginia, US"
@@ -2591,7 +2591,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 55115.0,Shawano,Wisconsin,US,2020-03-25 23:33:19,44.78902246,-88.76443896,0,0,0,0,"Shawano, Wisconsin, US"
 20177.0,Shawnee,Kansas,US,2020-03-25 23:33:19,39.04100763,-95.7557264,3,0,0,0,"Shawnee, Kansas, US"
 55117.0,Sheboygan,Wisconsin,US,2020-03-25 23:33:19,43.72099677,-87.94579284,7,0,0,0,"Sheboygan, Wisconsin, US"
-1117.0,Shelby,Alabama,US,2020-03-25 23:33:19,33.26879845,-86.66232561,42,0,0,0,"Shelby, Alabama, US"
+1117.0,Shelby,Alabama,US,2020-03-25 23:33:19,33.26879845,-86.66232561,56,0,0,0,"Shelby, Alabama, US"
 17173.0,Shelby,Illinois,US,2020-03-25 23:33:19,39.39133527,-88.80611122,0,0,0,0,"Shelby, Illinois, US"
 18145.0,Shelby,Indiana,US,2020-03-25 23:33:19,39.52305623,-85.79158570000001,2,0,0,0,"Shelby, Indiana, US"
 19165.0,Shelby,Iowa,US,2020-03-25 23:33:19,41.6850066,-95.31015553,0,0,0,0,"Shelby, Iowa, US"
@@ -2655,7 +2655,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 22087.0,St. Bernard,Louisiana,US,2020-03-25 23:33:19,29.87761636,-89.51887093,23,1,0,0,"St. Bernard, Louisiana, US"
 22089.0,St. Charles,Louisiana,US,2020-03-25 23:33:19,29.90709658,-90.35555967,17,1,0,0,"St. Charles, Louisiana, US"
 29183.0,St. Charles,Missouri,US,2020-03-25 23:33:19,38.77875681,-90.66662425,12,1,0,0,"St. Charles, Missouri, US"
-1115.0,St. Clair,Alabama,US,2020-03-25 23:33:19,33.71902176,-86.31029372,6,0,0,0,"St. Clair, Alabama, US"
+1115.0,St. Clair,Alabama,US,2020-03-25 23:33:19,33.71902176,-86.31029372,10,0,0,0,"St. Clair, Alabama, US"
 17163.0,St. Clair,Illinois,US,2020-03-25 23:33:19,38.46996033,-89.93063427,7,0,0,0,"St. Clair, Illinois, US"
 26147.0,St. Clair,Michigan,US,2020-03-25 23:33:19,42.92655373,-82.67937954,10,0,0,0,"St. Clair, Michigan, US"
 29185.0,St. Clair,Missouri,US,2020-03-25 23:33:19,38.03699437,-93.77631447,0,0,0,0,"St. Clair, Missouri, US"
@@ -2758,7 +2758,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 13263.0,Talbot,Georgia,US,2020-03-25 23:33:19,32.69642758,-84.53351366,0,0,0,0,"Talbot, Georgia, US"
 24041.0,Talbot,Maryland,US,2020-03-25 23:33:19,38.76618159,-76.10882561,1,0,0,0,"Talbot, Maryland, US"
 13265.0,Taliaferro,Georgia,US,2020-03-25 23:33:19,33.56543317,-82.88136816,0,0,0,0,"Taliaferro, Georgia, US"
-1121.0,Talladega,Alabama,US,2020-03-25 23:33:19,33.37823223,-86.16886178,3,0,0,0,"Talladega, Alabama, US"
+1121.0,Talladega,Alabama,US,2020-03-25 23:33:19,33.37823223,-86.16886178,4,0,0,0,"Talladega, Alabama, US"
 28135.0,Tallahatchie,Mississippi,US,2020-03-25 23:33:19,33.95339918,-90.1729398,2,0,0,0,"Tallahatchie, Mississippi, US"
 1123.0,Tallapoosa,Alabama,US,2020-03-25 23:33:19,32.86698258,-85.79833053,4,0,0,0,"Tallapoosa, Alabama, US"
 19171.0,Tama,Iowa,US,2020-03-25 23:33:19,42.07991767,-92.53266945,4,0,0,0,"Tama, Iowa, US"
@@ -2843,7 +2843,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 6109.0,Tuolumne,California,US,2020-03-25 23:33:19,38.02644018,-119.9525093,0,0,0,0,"Tuolumne, California, US"
 13287.0,Turner,Georgia,US,2020-03-25 23:33:19,31.71612656,-83.62069378,1,0,0,0,"Turner, Georgia, US"
 46125.0,Turner,South Dakota,US,2020-03-25 23:33:19,43.3109081,-97.14865776,0,0,0,0,"Turner, South Dakota, US"
-1125.0,Tuscaloosa,Alabama,US,2020-03-25 23:33:19,33.28726072,-87.52556818,15,0,0,0,"Tuscaloosa, Alabama, US"
+1125.0,Tuscaloosa,Alabama,US,2020-03-25 23:33:19,33.28726072,-87.52556818,19,0,0,0,"Tuscaloosa, Alabama, US"
 39157.0,Tuscarawas,Ohio,US,2020-03-25 23:33:19,40.44214695,-81.47226262,3,0,0,0,"Tuscarawas, Ohio, US"
 26157.0,Tuscola,Michigan,US,2020-03-25 23:33:19,43.46606813,-83.41897025,2,0,0,0,"Tuscola, Michigan, US"
 13289.0,Twiggs,Georgia,US,2020-03-25 23:33:19,32.67435595,-83.43078662,2,0,0,0,"Twiggs, Georgia, US"
@@ -2938,7 +2938,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 37183.0,Wake,North Carolina,US,2020-03-25 23:33:19,35.78879266,-78.65249174,73,0,0,0,"Wake, North Carolina, US"
 12129.0,Wakulla,Florida,US,2020-03-25 23:33:19,30.16548905,-84.39895211,0,0,0,0,"Wakulla, Florida, US"
 23027.0,Waldo,Maine,US,2020-03-25 23:33:19,44.4858305,-69.12061935,1,0,0,0,"Waldo, Maine, US"
-1127.0,Walker,Alabama,US,2020-03-25 23:33:19,33.80270512,-87.30027177,9,0,0,0,"Walker, Alabama, US"
+1127.0,Walker,Alabama,US,2020-03-25 23:33:19,33.80270512,-87.30027177,15,0,0,0,"Walker, Alabama, US"
 13295.0,Walker,Georgia,US,2020-03-25 23:33:19,34.73376362,-85.30165174,0,0,0,0,"Walker, Georgia, US"
 48471.0,Walker,Texas,US,2020-03-25 23:33:19,30.73872995,-95.57440968,1,0,0,0,"Walker, Texas, US"
 53071.0,Walla Walla,Washington,US,2020-03-25 23:33:19,46.23040051,-118.4775539,2,0,0,0,"Walla Walla, Washington, US"
@@ -3222,6 +3222,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 69000.0,,Northern Mariana Islands,US,2020-03-25 23:33:19,15.0979,145.6739,0,0,0,0,"Northern Mariana Islands, US"
 ,,Northern Territory,Australia,2020-03-25 23:37:49,-12.4634,130.8456,6,0,0,6,"Northern Territory, Australia"
 ,,Nova Scotia,Canada,2020-03-25 23:37:36,44.682,-63.7443,68,0,0,0,"Nova Scotia, Canada"
+,,Nunavut,Canada,2020-03-25 23:37:36,70.2998,-83.1076,0,0,0,0,"Nunavut, Canada"
 ,,Ontario,Canada,2020-03-25 23:37:36,51.2538,-85.3232,688,8,0,0,"Ontario, Canada"
 ,,Prince Edward Island,Canada,2020-03-25 23:37:36,46.5107,-63.4168,5,0,0,0,"Prince Edward Island, Canada"
 ,,Puerto Rico,US,2020-03-25 23:33:19,18.2208,-66.5901,51,2,0,0,"Puerto Rico, US"
@@ -3250,7 +3251,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,Xinjiang,China,2020-03-08 05:31:02,41.1129,85.2401,76,3,73,0,"Xinjiang, China"
 ,,Yunnan,China,2020-03-16 23:37:18,24.974,101.48700000000001,176,2,172,2,"Yunnan, China"
 ,,Zhejiang,China,2020-03-25 06:43:02,29.1832,120.0934,1241,1,1221,19,"Zhejiang, China"
-,,,Afghanistan,2020-03-25 23:33:04,33.93911,67.709953,84,2,2,80,Afghanistan
+,,,Afghanistan,2020-03-25 23:33:04,33.93911,67.709953,76,2,2,80,Afghanistan
 ,,,Albania,2020-03-25 23:33:04,41.1533,20.1683,146,5,17,124,Albania
 ,,,Algeria,2020-03-25 23:33:04,28.0339,1.6596,302,21,65,216,Algeria
 ,,,Andorra,2020-03-25 23:33:04,42.5063,1.5218,188,1,1,186,Andorra
@@ -3305,7 +3306,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Ethiopia,2020-03-25 23:33:04,9.145,40.4897,12,0,0,12,Ethiopia
 ,,,Fiji,2020-03-25 23:33:04,-17.7134,178.065,5,0,0,5,Fiji
 ,,,Finland,2020-03-25 23:33:04,61.92411,25.748151,880,3,10,867,Finland
-,,,France,2020-03-25 23:33:04,46.2276,2.2137,25233,1331,3900,20002,France
+,,,France,2020-03-25 23:33:04,46.2276,2.2137,24967,1331,3900,20002,France
 ,,,Gabon,2020-03-25 23:33:04,-0.8037,11.6094,6,1,0,5,Gabon
 ,,,Gambia,2020-03-25 23:33:04,13.4432,-15.3101,3,1,0,2,Gambia
 ,,,Georgia,2020-03-25 23:33:04,42.3154,43.3569,75,0,10,65,Georgia
@@ -3327,7 +3328,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Iran,2020-03-25 23:33:04,32.427908,53.68804599999999,27017,2077,9625,15315,Iran
 ,,,Iraq,2020-03-25 23:33:04,33.223191,43.679291,346,29,103,214,Iraq
 ,,,Ireland,2020-03-25 23:33:04,53.1424,-7.6921,1564,9,5,1550,Ireland
-,,,Israel,2020-03-25 23:33:04,31.046051,34.851612,2369,5,58,2306,Israel
+,,,Israel,2020-03-25 23:33:04,31.046051,34.851612,2468,5,37,2306,Israel
 ,,,Italy,2020-03-25 23:33:04,41.87194,12.56738,74386,7503,9362,57521,Italy
 ,,,Jamaica,2020-03-25 23:33:04,18.1096,-77.2975,26,1,2,23,Jamaica
 ,,,Japan,2020-03-25 23:33:04,36.204824,138.252924,1307,45,310,952,Japan
@@ -3384,6 +3385,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Saint Kitts and Nevis,2020-03-25 23:33:04,17.357822,-62.782998,2,0,0,2,Saint Kitts and Nevis
 ,,,Saint Lucia,2020-03-25 23:33:04,13.9094,-60.9789,3,0,0,3,Saint Lucia
 ,,,Saint Vincent and the Grenadines,2020-03-25 23:33:04,12.9843,-61.2872,1,0,0,1,Saint Vincent and the Grenadines
+,,,Samoa,2020-03-25 23:37:36,-13.759,-172.1046,0,0,0,0,Samoa
 ,,,San Marino,2020-03-25 23:33:04,43.9424,12.4578,208,21,4,183,San Marino
 ,,,Saudi Arabia,2020-03-25 23:33:04,23.885942,45.079162,900,2,29,869,Saudi Arabia
 ,,,Senegal,2020-03-25 23:33:04,14.4974,-14.4524,99,0,9,90,Senegal
